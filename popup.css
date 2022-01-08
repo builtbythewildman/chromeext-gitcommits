@@ -1,0 +1,89 @@
+html, body {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size:14px;
+  margin: 0 auto;
+  min-height: 580px;
+  width: 384px;
+  border:1px solid black;
+  position: relative;
+}
+
+h1 {
+  font-size:22px;
+  font-weight: 400;
+  margin:0;
+}
+a:link, a:visited {
+  color:#000;
+  outline:0;
+  text-decoration: none;
+}
+img {
+  width: 30px;
+}
+
+.modal-header {
+  align-items: center;
+  border: none;
+}
+.modal-content {
+  padding:5px 5px;
+  border: none;
+}
+.modal-icons{
+  height:50px;
+  width:100%;
+}
+.btn.btn-outline-primary {
+  height:60px;
+  width: 33%;
+  padding: 5px;
+}
+.btn-check:checked+.btn-outline-primary{
+  background-color: #00564d;
+  
+
+}
+.btn.btn-outline-primary:active, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:hover {
+background-color: #00564d; 
+color:#fff;
+}
+.btn-check:checked+.btn-outline-primary:focus {
+  box-shadow: none;
+}
+.btn-outline-primary {
+  background-color: white;
+  color: #00564d;
+  border-color: #00564d;
+}
+.modal-icons {
+  position: absolute;
+  bottom: 0;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  width: 120px;
+}
+.flex i {
+  font-size:30px;
+}
+.info-container {
+  background-color: #00564d;
+  height: 350px;
+}
+.modal-body{
+  height: 400px;
+  background-color: aqua;
+  scroll-behavior: smooth;
+}
+
