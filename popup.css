@@ -82,8 +82,9 @@ color:#fff;
   height: 350px;
 }
 .modal-body{
-  height: 400px;
-  background-color: aqua;
+  max-height: 400px;
+  overflow: scroll;
+  background-color: #dadada;
   scroll-behavior: smooth;
 }
 
