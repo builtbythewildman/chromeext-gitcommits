@@ -3,7 +3,7 @@ html, body {
   font-size:14px;
   margin: 0 auto;
   min-height: 580px;
-  width: 384px;
+  max-width: 384px;
   border:1px solid black;
   position: relative;
 }
@@ -29,6 +29,7 @@ img {
 .modal-content {
   padding:5px 5px;
   border: none;
+  max-width: 350px;
 }
 .modal-icons{
   height:50px;
