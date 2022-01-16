@@ -2,12 +2,16 @@ html, body {
   font-family: "Montserrat Alternates", sans-serif;
   font-size:14px;
   margin: 0 auto;
-  min-height: 580px;
+  min-height: 600px;
   max-width: 384px;
-  border:1px solid black;
+  border:1px solid #000000;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
   position: relative;
+  
+  background-color: #dccfba;
 }
-
 h1 {
   font-size:22px;
   font-weight: 400;
@@ -18,18 +22,31 @@ a:link, a:visited {
   outline:0;
   text-decoration: none;
 }
-img {
-  width: 30px;
+i.fas.fa-code-branch::before {
+  font-size: 35px;
+  color:white;
+  display: block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  -moz-border-radius: 30px; /* or 50% */
+  border-radius: 30px; /* or 50% */
+  background-color: black;
+  text-align: center;
 }
 
 .modal-header {
-  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
   border: none;
+
 }
 .modal-content {
   padding:5px 5px;
+  margin: 0 auto;
   border: none;
   max-width: 350px;
+  background-color: #dadada;
 }
 .modal-icons{
   height:50px;
@@ -40,22 +57,29 @@ img {
   width: 33%;
   padding: 5px;
 }
-.btn-check:checked+.btn-outline-primary{
-  background-color: #00564d;
-  
+.btn.btn-outline-primary:nth-of-type(2),.btn.btn-outline-primary:nth-of-type(3) {
+  padding: 15px 0;
+}
 
+.btn-check:checked+.btn-outline-primary{
+  background-color: #9c847c;
 }
 .btn.btn-outline-primary:active, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:hover {
-background-color: #00564d; 
+background-color: #9c847c; 
 color:#fff;
+border-color:#9c847c;
 }
 .btn-check:checked+.btn-outline-primary:focus {
   box-shadow: none;
 }
 .btn-outline-primary {
   background-color: white;
-  color: #00564d;
-  border-color: #00564d;
+  color: #9c847c;
+  border-color: #9c847c;
+}
+.btn-check:checked+.btn-outline-primary{
+  border-color:#9c847c;
+  box-shadow: none;
 }
 .modal-icons {
   position: absolute;
@@ -66,6 +90,7 @@ color:#fff;
   flex-direction: column;
   align-items: center;
   padding: 10px 10px;
+  margin: 5px;
 
 }
 .flex {
@@ -84,8 +109,11 @@ color:#fff;
 }
 .modal-body{
   max-height: 400px;
-  overflow: scroll;
-  background-color: #dadada;
+  overflow-y: scroll;
+  background-color: #fff;
   scroll-behavior: smooth;
+}
+.bg-secondary{
+  background-color: beige;
 }
 
