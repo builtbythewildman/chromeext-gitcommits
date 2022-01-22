@@ -57,4 +57,4 @@ Version 1.0.0
 * [Using Git](https://docs.github.com/en/get-started/using-git/about-git)
 * [Write better git messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
 * [Chrome Extensions Docs](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
-* [Traverst Media](https://www.youtube.com/watch?v=wHZCYi1K664)
+* [Traversy Media](https://www.youtube.com/watch?v=wHZCYi1K664)
