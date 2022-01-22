@@ -2,15 +2,18 @@ html, body {
   font-family: "Montserrat Alternates", sans-serif;
   font-size:14px;
   margin: 0 auto;
-  min-height: 600px;
+  min-height: 550px;
   max-width: 384px;
-  border:1px solid #000000;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 20px;
+  height: 500px;
+  width: 384px;
   position: relative;
-  background-color: #dccfba;
+  overflow: hidden;
 }
+body {
+  background-color: #dccfba;
+  border: 3px solid black;
+}
+
 h1 {
   font-size:22px;
   font-weight: 400;
@@ -42,6 +45,8 @@ a:link, a:visited {
 .modal-icons{
   height:50px;
   width:100%;
+  background-color: #dccfba;
+
 }
 .modal-icons > .flex-container > .flex >a >img{
   height:30px;
@@ -79,6 +84,8 @@ border-color:#9c847c;
 .modal-icons {
   position: absolute;
   bottom: 0;
+  background-color: #dccfba;
+
 }
 .flex-container {
   display: flex;
