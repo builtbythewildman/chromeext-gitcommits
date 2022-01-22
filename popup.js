@@ -1,3 +1,6 @@
+let onLoad = (()=>{
+setTimeout(()=>{
+
 
 
 //pulling items from html
@@ -53,3 +56,6 @@ referencesBtn.addEventListener("click", () => {
     listContent.appendChild(li)
   })
 });
+},2000);
+});
+onLoad();

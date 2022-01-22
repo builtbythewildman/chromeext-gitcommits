@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="/bootstrap.min.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/e998d7fc85.js" crossorigin="anonymous"></script>
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Alternates:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Alternates:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
   <!-- Style sheet -->
   <link rel="stylesheet" href="popup.css">
   <title>Git Cheat Sheet</title>
 </head>
+
 <body>
   <div class="modal-header">
-    <span> <i class="fas fa-code-branch"></i></span>
+    <span> <img src="images/code-fork.svg" alt="website"></span>
     <h1 class="logo">
-      Git  Cheat Sheet 
+      Git Cheat Sheet
     </h1>
   </div>
-      <div class="modal-content">
-        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-          <label class="commitMsgBtn btn btn-outline-primary" for="btnradio1">Commit Messages</label>
-        
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-          <label class="cheatSheetBtn btn btn-outline-primary" for="btnradio2">Cheat Sheet</label>
-        
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-          <label class="referencesBtn btn btn-outline-primary" for="btnradio3">References</label>
-          
-        </div>
-        <div class="modal-body">
-          <h2 class="heading">Commit Messages</h2>
-          <ul class="listContent">
-          </ul>
-        </div>
+  <div class="modal-content">
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+      <label class="commitMsgBtn btn btn-outline-primary" for="btnradio1">Commit Messages</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+      <label class="cheatSheetBtn btn btn-outline-primary" for="btnradio2">Cheat Sheet</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+      <label class="referencesBtn btn btn-outline-primary" for="btnradio3">References</label>
+
+    </div>
+    <div class="modal-body">
+      <h2 class="heading">Commit Messages</h2>
+      <ul class="listContent">
+        <li>git commit -m title -m description</li>
+        <li> feat – a new feature is introduced with the changes </li>
+        <li> fix – a bug fix has occurred </li>
+        <li> chore – changes that do not relate to a fix or feature and don't modify src or test files</li>
+        <li> refactor – refactored code that neither fixes a bug nor adds a feature</li>
+        <li>docs – updates to documentation such as a the README or other markdown files</li>
+        <li> test – including new or correcting previous tests</li>
+        <li> perf – performance improvements</li>
+        <li> ci – continuous integration related</li>
+        <li> build – changes that affect the build system or external dependencies</li>
+        <li>revert – reverts a previous commit</li>
+      </ul>
+    </div>
+  </div>
+  <div class="modal-icons">
+    <div class="flex-container">
+      <div class="flex">
+        <a href="https://www.builtbythewildman.com" target="_blank">
+          <img src="images/earth-europe.svg" alt="github">
+        </a>
+        <a href="https://github.com/builtbythewildman" target="_blank">
+          <img src="images/github.svg" alt="website">
+          <a href="https://docs.github.com/en/get-started/using-git/about-git" target="_blank">
+            <img src="images/git.svg" alt="github">
+          </a>
+          <a href="https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/" target="_blank">
+            <img src="images/free-code-camp.svg" alt="website">
+          </a>
       </div>
-      <div class="modal-icons">
-        <div class="flex-container">
-          <div class="flex">
-            <a href="https://www.builtbythewildman.com" target="_blank">
-              <i class="fas fa-globe-europe"></i>
-            </a>
-            <a href="https://github.com/builtbythewildman" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-        </div>
-      </div>
-    
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="popup.js"></script>
+    </div>
+
+    <!-- "Using Git(https://docs.github.com/en/get-started/using-git/about-git)", "Write better git messages(https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)" -->
+
+
+    <script src="/bootstrap.bundle.min.js"></script>
+    <script src="popup.js"></script>
 </body>
+
 </html>

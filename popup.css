@@ -9,7 +9,6 @@ html, body {
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
   position: relative;
-  
   background-color: #dccfba;
 }
 h1 {
@@ -22,17 +21,9 @@ a:link, a:visited {
   outline:0;
   text-decoration: none;
 }
-i.fas.fa-code-branch::before {
-  font-size: 35px;
-  color:white;
-  display: block;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
-  -moz-border-radius: 30px; /* or 50% */
-  border-radius: 30px; /* or 50% */
-  background-color: black;
-  text-align: center;
+.modal-header > span > img {
+  height:30px ;
+  width: auto;
 }
 
 .modal-header {
@@ -51,6 +42,10 @@ i.fas.fa-code-branch::before {
 .modal-icons{
   height:50px;
   width:100%;
+}
+.modal-icons > .flex-container > .flex >a >img{
+  height:30px;
+  width:80%;
 }
 .btn.btn-outline-primary {
   height:60px;
