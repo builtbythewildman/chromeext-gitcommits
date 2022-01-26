@@ -34,7 +34,7 @@ I haven't published this extenstion to the Chrome Store yet. For now, you are ab
 * [BOOTSTRAP](https://getbootstrap.com/docs/5.1/getting-started/introduction/) - Bootstrap
 * [FONT AWESOME](https://fontawesome.com/) - Font Awesome
 * [GOOGLE FONTS](https://fonts.google.com/) - Goolge Fonts
-* [JAVASCRIPT](https://www.javascript.com/) - Used to generate RSS Feeds
+* [JAVASCRIPT](https://www.javascript.com/) - Used for functionality
 
 ## Contributing
 
